@@ -1,6 +1,4 @@
 .home {
-    position: absolute;
-    top: 10%;
     display: flex;
     width: 100%;
     display: flex;
@@ -32,7 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    padding: 10% 3% 7% 3% ;
+    padding: 6% 3% 6% 3% ;
 }
 
 .curso {
@@ -44,19 +42,16 @@
 
 
 .curso button {
-    align-items: center;
     cursor: pointer;
     border-radius: 62px;
     border-style: solid;
-    border-color: #AD0C0C;
-    padding: 1.5% 5%;
-    margin-top: 5%;
-    background-color: #AD0C0C;
+    border-color: #99477c;
+    padding: 2% 15%;
+    margin-top: 25%;
+    background-color: #99477c;
     color: #ffffff;
     font-weight: bold;
-
 }
-
 
 .depoimentos {
     width: 100%;
@@ -71,7 +66,7 @@
     margin-top: 5%;
     margin-bottom: 4%;
     margin-left: 7%;
-    color: #002C53;
+    color: #99477c;
 }
 .feedback {
     width: 37%;
@@ -105,7 +100,7 @@
     width: 90%;
     margin-top: 5%;
     margin-left: 5%;
-    color: #002C53;
+    color: #99477c;
 }
 
 .post {
@@ -115,7 +110,7 @@
 }
 
 .post h3 {
-    color: #002C53;
+    color: #99477c;
     margin-top: 1.5%;
     margin-bottom: 1%;
 }
@@ -135,43 +130,30 @@
     height: 200%;
     cursor: pointer;
     border-radius: 62px;
-    color: #002C53;
-    border-color: #002C53;
+    color: #99477c;
+    border-color: #99477c;
 }
 
 @media screen and (max-width: 1280px) {
-    .cursos {
-        display: block;
-    }
 
-    .curso {
-        width: 100%;
-    }
     .curso img {
-        width: 45%;
-    }
-
-    .curso h2 {
-        padding: 3%;
-    }
-    
-    #ingles_avacado {
-        padding-top: 3%;
-    }
-
-    .curso p {
-        padding-left: 25%;
-        padding-right: 25%;
+        width: 60%;
     }
     
     .curso button {
-        margin-top: 2.5%;
-        margin-bottom: 9%;
+        margin-top: 20%;
     }
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
+
+    .banner_img{
+        margin-left: 0%;
+    }
+    .banner_img img {
+        width: 100%;
+    }
 
     .blog {
         display: block;
@@ -200,23 +182,8 @@
 
 @media screen and (max-width: 835px) {
 
-    .banner_texto h1 {
-        font-size: 150%;
-        color: #002C53;
-        text-shadow: 
-            0px -0px 0px, 
-            1px 1px 0px,                    
-            1px 1px 0px,                  
-            1px 0px 0px;
-    }
-    
-    .banner_texto h4 {
-        font-size: small;
-    }
-
-    
-    .banner_img img {
-        width: 85%;
+    .curso img {
+        width: 95%;
     }
 
     .feedback {
@@ -236,33 +203,23 @@
     }
 }
 
-@media screen and (max-width: 688px) {
-    
-    .banner_texto  {
-        width: 100%;
-        text-align: center;
-    }
-    .banner_img img {
-        display: none;
+@media screen and (max-width: 600px) {
+
+    .cursos {
+        display: block;
     }
 
-    .banner_texto h1 {
-        font-size: 250%;
-        margin-left: 0%;
-    }
-    
-    .banner_texto h4 {
-        margin-left: 0%;
+    .curso {
+        margin-left: 30%;
     }
 
-    .banner button {
-        margin-left: 0%;
+    .curso img {
+        width: 150%;
     }
 
     .curso button {
-        margin-bottom: 15%;
+        width: 140%;
     }
-
 }
 
 @media screen and (max-width: 550px) {

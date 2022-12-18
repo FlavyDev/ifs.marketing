@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_carrinho_compras.css">
+    <title>Carrinho de Compras</title>
+</head>
+
+<body>
+
+    <div id="div_pai">
+
+        <form> <!--Formulário guadando dados sem deixar diponível na url (post)-->
+            
+            <fieldset><!--Grupo de campos-->
+                <legend><b>Dados basicos</b></legend>
+
+                <label> Nome Ficitício &nbsp;<input type="text" name="Nome" placeholder="Nome fictício" id="nome"></label> <br>
+                <label>Forma de Pagamento  &nbsp; &nbsp; 
+                    <select name="forma_pagamento">
+                        <option value="PIX">PIX</option>
+                        <option value="Cartão de Crédito">Cartão de Crédito</option>
+                        <option value="Boleto Bancário">Boleto Bancário</option><br>
+                    </select>
+                </label>
+
+            </fieldset>
+    
+            
+            <a href="contato.html"><input type="submit" value="salvar opções" id="enviar"></a>
+
+            <!-- <fieldset>
+                <legend><b>Dados do Login</b></legend>
+                <label>Usuário <input type="text" placeholder=" Usuáriofictício"> </label> &nbsp; &nbsp;
+                <label>Senha <input type="password" name="Senha" placeholder="Senha fictícia"></label>
+            </fieldset> -->
+
+        </form>
+     
+    </div>
+
+</body>

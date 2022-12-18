@@ -1,0 +1,37 @@
+#div_pai {
+    width: 55%;
+    padding-left: 25%;
+}
+
+#nome {
+    margin: 0.2%;
+}
+
+#email {
+    margin: 0.4%;
+}
+
+#arquivo {
+    border: 0.5px solid rgb(136, 128, 125);
+    margin-top: 1%;
+    padding: 1.5%;
+}
+
+#perguntas_navegador {
+    margin-top: 2%;
+}
+
+#perguntas_ferramentas {
+    margin-top: 5%;
+}
+
+#perguntas_fiq {
+    margin-top: 5%;
+}
+
+#enviar {
+    margin-top: 2%;
+    background-color: blue;
+    border-color: blue;
+    color: #ffff;
+}
