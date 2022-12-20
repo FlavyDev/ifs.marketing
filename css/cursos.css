@@ -1,261 +1,106 @@
-.intro {
-    position: absolute;
-    height: 69px;
-    left: 5.69%;
-    right: 76.04%;
-    top: 198px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
-    text-transform: capitalize;
-    color: #002C53;
+.lp_venda_curso {
+    height: 100%;
 
 }
 
-.intro1 {
-    position: absolute;
-    height: 23px;
-    left: 5.69%;
-    right: 74.79%;
-    top: 267px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    color: #555555;
+.lp_cursos{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.venda_cursos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 7% 3% 0% 4% ;
+}
+
+.venda_cursos h1 {
+    width: 100%;
+    color: #99477c;
+    font-size: 300%;
+    margin-bottom: 5%;
 
 }
 
-.fotoIniciante {
-    position: absolute;
-    width: 373px;
-    height: 341px;
-    left: 104px;
-    top: 392px;
-    background: url(img/img_ingles_iniciantes.jpg);
+.img_curso_sp {
+    width: 18%;
+}
+
+.img_curso_sp img {
+    width: 100%;
+}
+
+.text_curso {
+    width: 65%;
+    margin-left: 3%;
+    padding-top: 0.5%;
+    margin-bottom: 8%;
 
 }
 
-.fraseIniciante {
-    position: absolute;
-    width: 512px;
-    height: 44px;
-    left: 545px;
-    top: 392px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 44px;
-    
-    
-    color: #002C53;
-}
-
-.botaoComece button{
-    position: absolute;
-    width: 12%;
-    height: 25px;
-    left: 554px;
-    top: 654px;
-    cursor: pointer;
-    font-family: 'Ubuntu';
-    font-style: normal;
-
-    font-size: 20px;
-    color: #ffffff;
-    border-color: #AD0C0C;
-    background-color: #AD0C0C;
-    border-radius: 62px;
-    padding-bottom: 35px;
-    padding-top: 16px;
-    
-}
-.textIniciante {
-    position: absolute;
-    width: 724px;
-    height: 105px;
-    left: 545px;
-    top: 483px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    
-    color: #000000;
-}
-
-.line {
-    position: absolute;
-    width: 80%;
-    height: 5px;
-    left: 82px;
-    top: 834px;
-    background: #C4C4C4;
-}
-
-.fotoIntermediario {
-    position: absolute;
-    width: 393px;
-    height: 304px;
-    left: 98px;
-    top: 939px;
-    background: url(img/img_ingles_intermediario.jpg);
-}
-
-.fraseIntermediario {
-    position: absolute;
-    width: 368px;
-    height: 44px;
-    left: 528px;
-    top: 931px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 44px;
-    text-align: center;
-    color: #002C53;
-}
-
-.botaoComece1 button{
-    position: absolute;
-    width: 216px;
-    height: 25px;
-    left: 554px;
-    top: 1227px;
-    cursor: pointer;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-    border-color: #AD0C0C;
-    background-color: #AD0C0C;
-    border-radius: 62px;
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-
-.textIntermediario {
-    position: absolute;
-    width: 724px;
-    height: 105px;
-    left: 545px;
-    top: 1017px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-}
-
-.line1 {
-    position: absolute;
-    width: 80%;
-    height: 5px;
-    left: 98px;
-    top: 1424px;
-    background: #C4C4C4;
-}
-
-
-.fotoAvançado {
-    position: absolute;
-    width: 393px;
-    height: 331px;
-    left: 98px;
-    top: 1510px;
-    background: url(img_ingles_avancado);
-    
-}
-
-.fraseAvançado {
-    position: absolute;
-    width: 294px;
-    height: 44px;
-    left: 545px;
-    top: 1566px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 44px;
-    text-align: center;
-    color: #002C53;
-}
-
-
-.botaoComece2 button{
-    position: absolute;
-    width: 216px;
-    height: 25px;
-    left: 570px;
-    top: 1850px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    cursor: pointer;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #AD0C0C;
-    border-radius: 62px;
-    padding-bottom: 30px;
-    padding-top: 10px;
+.text_curso h2 {
+    font-size: 190%;
+    color: #99477c;
 
 }
 
-.textAvançado {
-    position: absolute;
-    width: 724px;
-    height: 105px;
-    left: 560px;
-    top: 1658px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-
-}
-
-
-
-@media screen and (max-width: 1024px) {
-    
-.botaoComece button{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 30px;
-    padding-top: 8px;
+.text_curso p {
+    text-align: justify;
     margin-top: 3%;
-    width: 20%;
-   }
-
-.textIniciante {
-    width: 424px;
-    text-align: justify;
 }
 
-.textIntermediario {
-    width: 424px;
-    text-align: justify;
+.text_curso button {
+    cursor: pointer;
+    border-radius: 62px;
+    border-style: solid;
+    border-color: #99477c;
+    padding: 1% 5%;
+    margin-top: 4%;
+    background-color: #99477c;
+    color: #ffffff;
+    font-weight: bold;
 }
 
-.textAvançado {
-    width: 424px;
-    text-align: justify;
+.linha {
+    width: 90%;
+    height: 1%;
+    border-color: #C4C4C4;
+    background-color: #C4C4C4;
+    margin-bottom: 5%;
 }
+
+
+footer {
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    background-color: #99477c;
+}
+
+
+@media screen and (max-width: 1280px) {
+    
+    .img_curso_sp {
+        width: 24%;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    
+
+}
+
+@media screen and (max-width: 769px) {
+    
+    footer {
+        position:relative;
+    }
 }
