@@ -10,7 +10,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .banner_conteudo {

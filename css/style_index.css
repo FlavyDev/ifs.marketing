@@ -109,15 +109,21 @@
     margin-left: 6%;
 }
 
+.post img {
+    margin-left: 11%;
+
+}
+
 .post h3 {
     color: #99477c;
     margin-top: 1.5%;
     margin-bottom: 1%;
+    text-align: center;
 }
 
 .post p {
-    width: 350px;
     margin-bottom: 30%;
+    text-align: justify;
 }
 
 .blog a {
@@ -144,6 +150,11 @@
         margin-top: 20%;
     }
 
+    .post img {
+        margin-left: 0%;
+    
+    }
+
 }
 
 @media screen and (max-width: 1025px) {
@@ -167,7 +178,11 @@
     }
 
     .post h3 {
-        width: 250%;
+        width: 125%;
+    }
+
+    .post p {
+        width: 130%;
     }
 
     .blog a {
@@ -259,7 +274,7 @@
     }
 
     .post img {
-        width: 350%;
+        width: 340%;
     }
     
     .post p {
