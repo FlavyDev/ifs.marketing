@@ -7,6 +7,7 @@
     padding-left: 204px;
     padding-right: 204px;
     padding-top: 111px;
+    background-color: rgb(247, 247, 247);
 }
 
 .post_blog_page .title_blog_page{
@@ -44,6 +45,10 @@
     text-align: justify;
     font-weight: 500;
     padding-top: 40px;
+}
+h3 {
+    color: #99477c;
+    
 }
 
 .referencias {

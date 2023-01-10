@@ -1,37 +1,22 @@
+
 #div_pai {
-    width: 55%;
+    width: 45%;
     padding-left: 25%;
+    margin-top: 10%;
 }
 
 #nome {
-    margin: 0.2%;
+    margin-bottom: 2%;
 }
 
-#email {
-    margin: 0.4%;
+.dados_basicos {
+    margin-left: 3%;
+    padding: 3%;
 }
 
-#arquivo {
-    border: 0.5px solid rgb(136, 128, 125);
-    margin-top: 1%;
-    padding: 1.5%;
-}
-
-#perguntas_navegador {
-    margin-top: 2%;
-}
-
-#perguntas_ferramentas {
+.dados_login {
+    margin-left: 3%;
     margin-top: 5%;
+    padding: 3%;
 }
 
-#perguntas_fiq {
-    margin-top: 5%;
-}
-
-#enviar {
-    margin-top: 2%;
-    background-color: blue;
-    border-color: blue;
-    color: #ffff;
-}
