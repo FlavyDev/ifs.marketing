@@ -12,12 +12,13 @@
     <title>Carrinho de Compras</title>
 
     <!-- Google Tag Manager -->
+    <!--
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-N695WB4');
-    </script> 
+    </script> -->
     <!-- End Google Tag Manager --> 
 
 </head>
@@ -51,8 +52,9 @@
             <fieldset class="dados_basicos"><!--Grupo de campos-->
                 <legend><b>Dados basicos</b></legend>
 
-                <label> Nome Ficitício &nbsp;<input type="text" name="Nome" placeholder="Nome fictício" id="nome"></label> <br>
-                <label>Forma de Pagamento  &nbsp; &nbsp; 
+                <label> Nome Ficitício: &nbsp;<input type="text" name="Nome" placeholder="Nome fictício" id="nome"></label> <br>
+
+                <label>Forma de Pagamento: &nbsp; 
                     <select name="forma_pagamento">
                         <option value="PIX">PIX</option>
                         <option value="Cartão de Crédito">Cartão de Crédito</option>
@@ -64,8 +66,8 @@
 
             <fieldset class="dados_login">
                 <legend><b>Dados do Login</b></legend>
-                <label>Usuário <input type="text" placeholder=" Usuáriofictício"> </label> &nbsp; &nbsp;
-                <label>Senha <input type="password" name="Senha" placeholder="Senha fictícia"></label>
+                <label>Usuário: <input type="text" placeholder=" Usuário fictício"> 
+                <label>Senha: <input type="password" name="Senha" placeholder="Senha fictícia"></label>
             </fieldset> 
 
         </form>

@@ -1,11 +1,11 @@
 .home_aula {
-    position: absolute;
-    top: 15%;
     display: flex;
     width: 100%;
+    display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
 }
+
 .banner_aula {
     width: 100%;
     display: flex;
@@ -38,7 +38,8 @@
     display: flex;
     flex-wrap: wrap; 
     box-sizing: border-box;
-    background-color: #ece7e7;
+    background-color: #f0f0f0;
+    padding-bottom: 5%;
 }
 
 .conteudo_aula {
