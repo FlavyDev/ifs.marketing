@@ -143,7 +143,7 @@
 @media screen and (max-width: 1280px) {
 
     .curso img {
-        width: 60%;
+        width: 100%;
     }
     
     .curso button {
@@ -164,6 +164,12 @@
     }
     .banner_img img {
         width: 100%;
+    }
+
+    .curso button {
+        padding: 7%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .blog {
@@ -213,27 +219,55 @@
         margin-top: 3%;
     }
 
-    .blog a {
-        margin-left: 35%;
+    .post h3 {
+        width: 160%;
     }
+
+    .post p {
+        width: 160%;
+    }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
 
-    .cursos {
-        display: block;
+    .post h3 {
+        width: 175%;
     }
 
+    .post p {
+        width: 175%;
+    }
+
+}
+
+@media screen and (max-width: 601px) {
+
     .curso {
+        display: block;
         margin-left: 30%;
+        margin-bottom: 10%;
     }
 
     .curso img {
-        width: 150%;
+        width: 140%;
     }
 
     .curso button {
         width: 140%;
+    }
+
+    .post h3 {
+        width: 220%;
+    }
+
+    .post p {
+        width: 220%;
+    }
+
+    .blog button {
+        width: 45%;
+        height: 3%;
     }
 }
 
@@ -247,8 +281,6 @@
         display: block;
         margin-bottom: 10%;
         margin-left: 10%;
-
-        
     }
 
     .feedback img {
@@ -277,8 +309,12 @@
         width: 340%;
     }
     
+    .post h3 {
+        width: 330%;
+    }
+
     .post p {
-        width: 300px;
+        width: 330%;
         margin-bottom: 100%;
     }
 
